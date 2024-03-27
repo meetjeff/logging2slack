@@ -2,7 +2,7 @@ import unittest
 import logging
 from unittest.mock import patch
 
-from slack_logger import SlackLogger, SlackLoggingHandler
+from slack_log import SlackLogger, SlackLoggingHandler
 
 class TestLoggingUtils(unittest.TestCase):
     def setUp(self):
@@ -14,7 +14,7 @@ class TestLoggingUtils(unittest.TestCase):
         self.logger_name = "test_logger"
         self.logger_icon = ":test_icon:"
 
-    @patch('slack_logger.slacklogger.requests.post')
+    @patch('slack_log.slacklog.requests.post')
     def test_emit(self, mock_post):
         handler = SlackLoggingHandler(
             self.slack_url, 

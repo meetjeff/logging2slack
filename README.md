@@ -1,2 +1,2 @@
-# slack-logger
+# slack-log
 SlackLogger
