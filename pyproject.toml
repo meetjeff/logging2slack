@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "logging2slack"
-version = "1.0.0"
+version = "2.0.0"
 authors = [
   { name="Jeff Hsu", email="adf159776@gmail.com" },
 ]
