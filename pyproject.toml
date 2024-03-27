@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "slack_log"
+name = "logging2slack"
 version = "1.0.0"
 authors = [
   { name="Jeff Hsu", email="adf159776@gmail.com" },
@@ -21,4 +21,4 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/meetjeff/slack-log"
+"Homepage" = "https://github.com/meetjeff/logging2slack"
